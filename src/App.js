@@ -4,6 +4,6 @@ import React from 'react';
 export default function App() {
     
     return(
-        <p>This is my new react app</p>
+        <p>Yay I did it</p>
     )
 }
