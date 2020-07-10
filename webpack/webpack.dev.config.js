@@ -15,5 +15,13 @@ module.exports = {
 				loaders: ["style-loader", "css-loader", "less-loader"]
 			}
 		]
-	},
+    },
+    output: {
+        path: __dirname + '/dist',
+        filename: 'bundle.js'
+    },
+    devServer: {
+        contentBase: __dirname + '/dist',
+        historyApiFallback: true
+    }
 }
